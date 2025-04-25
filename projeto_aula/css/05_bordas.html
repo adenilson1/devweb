@@ -1,79 +1,35 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Tags Div & Span</title>
+		<title>Bordas</title>
 		<meta charset="utf-8">
 		<style type="text/css">
-			/*Divs -> DIvisão -> divisão das partes do site, onde ha varias divisões para organizar as areas do site. elemento do tipo block, ocupa todo espaço da tabela. cada elemento fica um de baixo do outro
+			/*
+			Para usar o border, deveo-se declarar 3 valores
+			espessura, tipo, cor
 
-			Span: funciona como uma div -> atua direto na tag html, é do tipo linha. um elemento fica um do lado do outro
 			*/
-
-			#topo{
-
-				background: blue;
-
-			}
 
 			#conteudo{
 
-				background: red;
+				/*border: 15px outset red;*/
+				border-color: red blue gray green;
+				border-width: 15px 3px;
+				border-style: solid ;
 
 			}
-
-			.produto{
-
-				background: gray;
-				margin: 10px;
-			}
-
-			#rodape{
-				background: green;
-			}
-
-			#assinatura{
-
-				background: yellow;
-
-			}
-
-			.azul{
-				color: blue;
-			}
-
-
+			
 
 		</style>
 	</head>
 	<body>
 
-		<div id="topo">
+		<div id="conteudo">
 
-			<img src="imagens/amazon.png" width="100">
-			<ul>
-				<li>Home</li>
-				<li>Produtos</li>
-				<li>Contato</li>
-			</ul>
-
-			</div>
-			<div id="conteudo">
-
-				<div class="produto">
-					Produto 1
-				</div>
-
-				<div class="produto">
-					Produto 2
-				</div>
-
-				<div class="produto">
-					Produto 3
-			</div>
-		</div>
-
-		<div id="rodape">
-			Todos os <span class="azul">direitos</span> reservados
+			Bordas<br>
+			Bordas<br>
+			Bordas<br>
+			
 		</div>
 		
 
