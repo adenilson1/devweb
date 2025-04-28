@@ -1,0 +1,53 @@
+body{
+
+	background-image: url("imagens/fundo.png") ;
+	width: 800px;
+
+h3{
+	color: #b5b1a7;
+	padding-top: 20px;
+
+
+}
+
+#tamanho{
+	
+	background-color: #b5b1a7;
+	color: #3F4868;
+	margin-right: 10px;
+}
+
+h5{
+
+	text-align: center;
+}
+
+.link-sem-sublinhado{
+
+	text-decoration: none;
+	color: #3F4868;
+}
+
+.menu{
+
+	font-weight: 700;
+
+}
+
+.texto{
+	color: #000000;
+	background: #FFFAFA;
+	line-height: 1.5;
+	text-align: left;
+
+
+}
+
+.foto{
+	width: 400px;
+	border: 5px solid #b5b1a7;
+	background-position: left;
+}
+
+
+
