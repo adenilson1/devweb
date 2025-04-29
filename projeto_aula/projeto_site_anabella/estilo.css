@@ -1,26 +1,38 @@
 body{
 
-	background-image: url("imagens/fundo.png") ;
+	background: #d2d2c1 url("imagens/fundo.png")  ;
+	font: 16px Arial, Helvetica, sans-serif;
 	width: 800px;
+
 
 h3{
 	color: #b5b1a7;
-	padding-top: 20px;
-
+	font-family: sans-serif;
 
 }
 
-#tamanho{
-	
-	background-color: #b5b1a7;
-	color: #3F4868;
-	margin-right: 10px;
-}
 
 h5{
 
 	text-align: center;
+	font-family: sans-serif;
 }
+
+
+.tamanho{
+	
+	background-color: #b5b1a7;
+	color: #3F4868;
+
+}
+
+.tamanho_menu{
+	padding-right: 15px;
+	padding-bottom: 25px;
+	font-family: sans-serif;
+
+}
+
 
 .link-sem-sublinhado{
 
@@ -39,9 +51,12 @@ h5{
 	background: #FFFAFA;
 	line-height: 1.5;
 	text-align: left;
+	padding: 1px 10px;
+	font-family: sans-serif;
 
 
 }
+
 
 .foto{
 	width: 400px;
@@ -49,5 +64,12 @@ h5{
 	background-position: left;
 }
 
+
+.contato{
+
+	font-family: sans-serif;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
 
 
